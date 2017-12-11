@@ -48,14 +48,19 @@
     <Compile Include="10.StatePattern\State\SoldOutState.cs" />
     <Compile Include="10.StatePattern\State\SoldState.cs" />
     <Compile Include="10.StatePattern\State\WinnerState.cs" />
+    <Compile Include="11.ProxyPattern\GumballMachine.cs" />
+    <Compile Include="11.ProxyPattern\State\HasQuarterState.cs" />
+    <Compile Include="11.ProxyPattern\State\IState.cs" />
+    <Compile Include="11.ProxyPattern\State\NoQuarterState.cs" />
+    <Compile Include="11.ProxyPattern\State\SoldOutState.cs" />
+    <Compile Include="11.ProxyPattern\State\SoldState.cs" />
+    <Compile Include="11.ProxyPattern\State\WinnerState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="11.ProxyPattern\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
