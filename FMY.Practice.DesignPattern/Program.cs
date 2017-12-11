@@ -11,12 +11,18 @@ namespace FMY.Practice.DesignPattern
     {
         static void Main(string[] args)
         {
+            
+        }
+
+        #region [StatePattern          ]
+        public static void TestStatePattern()
+        {
             GumballMachine machine = new GumballMachine(5);
             int count = 0;
             while (true)
             {
                 count++;
-                
+
                 Console.WriteLine(machine.ToString());
                 Console.ReadKey();
 
@@ -36,8 +42,10 @@ namespace FMY.Practice.DesignPattern
                 Console.WriteLine(machine.ToString());
 
                 Console.ReadKey();
-                Console.WriteLine(string.Format("*********{0}*********",count));
+                Console.WriteLine(string.Format("*********{0}*********", count));
             }
-        }
+        } 
+        #endregion
+
     }
 }
